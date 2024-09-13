@@ -19,7 +19,7 @@ public class PlayMovement : MonoBehaviour
 
     public Animator animator;
 
-    private int najs = 1;
+    private int najs = 2;
 
     private void Start()
     {
