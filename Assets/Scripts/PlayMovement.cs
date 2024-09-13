@@ -11,7 +11,9 @@ public class PlayMovement : MonoBehaviour
     Rigidbody2D rd2D;
 
     private bool betterJump = false;
-   
+   //lite ändringar
+
+    //lite mer ändringar
     public float fallMultipiler = 0.5f;
     public float lowJumpMultiplier = 1f;
 
