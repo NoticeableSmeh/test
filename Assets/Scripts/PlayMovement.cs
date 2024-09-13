@@ -2,8 +2,8 @@
 
 public class PlayMovement : MonoBehaviour
 {
-    public float runSpeed = 2;
-    public float jumpSpeed = 3;
+    public float runSpeed = 89;
+    public float jumpSpeed = 9;
     public float doubleJumpSpeed = 2.5f;
 
     private bool canDoubleJump;
@@ -26,7 +26,7 @@ public class PlayMovement : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("x"))
         {
             if (GroundCheck.isGrounded)
             {
