@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Pixel Adventure 1/Scenes/Menu/MainMenu.unity
     guid: 4d6d4ec99a58b9d418ae34e5ce9a2de4
   - enabled: 1

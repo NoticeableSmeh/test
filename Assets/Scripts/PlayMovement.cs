@@ -19,6 +19,8 @@ public class PlayMovement : MonoBehaviour
 
     public Animator animator;
 
+    private int najs = 1;
+
     private void Start()
     {
         rd2D = GetComponent<Rigidbody2D>();
@@ -42,6 +44,7 @@ public class PlayMovement : MonoBehaviour
                     canDoubleJump = false; 
                 }
             }
+            print(najs);
         }
 
         if (GroundCheck.isGrounded == false)
